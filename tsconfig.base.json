@@ -18,6 +18,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@/*": [
+        "client/src/*"
+      ],
       "@acme/shared-models": [
         "shared-models/src/index.ts"
       ]
